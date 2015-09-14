@@ -1,0 +1,10 @@
+name: upcom-your-tab
+version: 0.1.0
+authors:
+- Your Name <your@email.com>
+description: A custom tab for UpDroid Commander
+homepage: https://www.yourwebsite.com
+environment:
+  sdk: '>=1.9.3 <2.0.0'
+dependencies:
+  quiver: any
