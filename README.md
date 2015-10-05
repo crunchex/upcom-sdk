@@ -8,7 +8,33 @@ The SDK is itself a Dart package and a starting point for writing a custom Tab f
 
 ## Usage
 
-Implement your own tab by replacing all the placeholders (Your Tab, upcom-your-tab, etc.) with your own names and code. An exhaustive checklist of things to change.
+Clone this repo with a new name based on your application.
+
+```shell
+
+git clone https://bitbucket.org/updroid/upcom-sdk.git upcom-yourtab
+
+```
+
+Start with a fresh commit history.
+
+```shell
+
+rm -f .git
+
+```
+
+Check in all the original SDK files as a starting point.
+
+```shell
+
+git add .
+
+git commit -m "file check-in"
+
+```
+
+Implement your own tab by replacing all the placeholders (Your Tab, upcom-yourtab, etc.) with your own names and code. An exhaustive checklist of things to change.
 
 ## Known Issues
 
